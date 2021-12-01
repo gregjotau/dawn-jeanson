@@ -88,6 +88,7 @@
                 spellcheck="false"
               {%- endif -%}
             >
+            <input type="hidden" name="type" value="product" />
             <label class="field__label" for="Search-In-Template">{{ 'general.search.search' | t }}</label>
             <input name="options[prefix]" type="hidden" value="last">
 
@@ -164,6 +165,7 @@
                         show_image_outline: section.settings.show_image_outline,
                         show_rating: section.settings.show_rating
                       %}
+                      {% render 'collection-swatch', product: item %}
                     {%- when 'article' -%}
                       <a href="{{ item.url }}" class="card-wrapper">
                         <div class="card card--search card--soft{% unless item.image %} card--text-only{% endunless %}">
