@@ -1,43 +1,5 @@
 {
   "sections": {
-    "1627975102451ca4ce": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "1627975102451ca4ce-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "SEAMLESS COLLECTION",
-            "heading_size": "h2"
-          }
-        },
-        "1627975102451ca4ce-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Sjekk ut vår seamless kolleksjon her. Vi har seamless tights, sports-bh, topper og undertøy.<\/p>"
-          }
-        },
-        "1627975102451ca4ce-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP HER",
-            "button_link": "shopify:\/\/collections\/seamless-tights-dame",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "1627975102451ca4ce-0",
-        "1627975102451ca4ce-1",
-        "1627975102451ca4ce-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
     "1629993086223521d8": {
       "type": "btns",
       "disabled": true,
@@ -118,6 +80,42 @@
         "show_rating": false
       }
     },
+    "1638436704317638b5": {
+      "type": "rich-text",
+      "blocks": {
+        "16384367048ad60f65-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "16384367048ad60f65-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16384367048ad60f65-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16384367048ad60f65-0",
+        "16384367048ad60f65-1",
+        "16384367048ad60f65-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "16383663363117aab2": {
       "type": "image-banner",
       "blocks": {
@@ -169,81 +167,38 @@
         "show_text_below": true
       }
     },
-    "16384302673ded7cd0": {
-      "type": "image-with-text",
+    "1627975102451ca4ce": {
+      "type": "rich-text",
       "blocks": {
-        "1638430267a657c19d-0": {
+        "1627975102451ca4ce-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Jeansguide"
+            "heading": "SEAMLESS COLLECTION",
+            "heading_size": "h2"
           }
         },
-        "1638430267a657c19d-1": {
+        "1627975102451ca4ce-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>En guide for å finne den perfekte jeansen. Om du ønsker en løs og romslig passform eller skinny med stretch - har vi den riktige buksen for deg!<\/p>"
+            "text": "<p>Sjekk ut vår seamless kolleksjon her. Vi har seamless tights, sports-bh, topper og undertøy.<\/p>"
           }
         },
-        "1638430267a657c19d-2": {
+        "1627975102451ca4ce-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
-            "button_label": "Sjekk ut guiden her!",
-            "button_link": "shopify:\/\/blogs\/jeans\/jeans-guide-finn-dine-perfekte-jeans"
+            "button_label": "SHOP HER",
+            "button_link": "shopify:\/\/collections\/seamless-tights-dame",
+            "button_style_secondary": true
           }
         }
       },
       "block_order": [
-        "1638430267a657c19d-0",
-        "1638430267a657c19d-1",
-        "1638430267a657c19d-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/4flex-blue_18.jpg",
-        "height": "small",
-        "color_scheme": "inverse",
-        "layout": "image_first"
-      }
-    },
-    "163836560402fa0d25": {
-      "type": "featured-blog",
-      "disabled": true,
-      "settings": {
-        "heading": "Les mer om våre jeans!",
-        "blog": "jeans",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "soft_background": false,
-        "show_view_all": true
-      }
-    },
-    "1629157352b193f90f": {
-      "type": "newsletter",
-      "disabled": true,
-      "blocks": {
-        "1629157352b193f90f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Neste lansering?"
-          }
-        },
-        "1629157352b193f90f-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Bli den første som får vite om nyheter og tilbud<\/p>"
-          }
-        },
-        "1629157352b193f90f-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1629157352b193f90f-0",
-        "1629157352b193f90f-1",
-        "1629157352b193f90f-2"
+        "1627975102451ca4ce-0",
+        "1627975102451ca4ce-1",
+        "1627975102451ca4ce-2"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -300,17 +255,51 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "16384302673ded7cd0": {
+      "type": "image-with-text",
+      "blocks": {
+        "1638430267a657c19d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jeansguide"
+          }
+        },
+        "1638430267a657c19d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En guide for å finne den perfekte jeansen. Om du ønsker en løs og romslig passform eller skinny med stretch - har vi den riktige buksen for deg!<\/p>"
+          }
+        },
+        "1638430267a657c19d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sjekk ut guiden her!",
+            "button_link": "shopify:\/\/blogs\/jeans\/jeans-guide-finn-dine-perfekte-jeans"
+          }
+        }
+      },
+      "block_order": [
+        "1638430267a657c19d-0",
+        "1638430267a657c19d-1",
+        "1638430267a657c19d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4flex-blue_18.jpg",
+        "height": "small",
+        "color_scheme": "inverse",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
-    "1627975102451ca4ce",
     "1629993086223521d8",
     "1631094390263d97d1",
     "1626547460af5b6361",
+    "1638436704317638b5",
     "16383663363117aab2",
-    "16384302673ded7cd0",
-    "163836560402fa0d25",
-    "1629157352b193f90f",
-    "16384365254bb0ce6b"
+    "1627975102451ca4ce",
+    "16384365254bb0ce6b",
+    "16384302673ded7cd0"
   ]
 }
