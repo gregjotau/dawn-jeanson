@@ -169,8 +169,44 @@
         "show_text_below": true
       }
     },
+    "16384302673ded7cd0": {
+      "type": "image-with-text",
+      "blocks": {
+        "1638430267a657c19d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jeansguide"
+          }
+        },
+        "1638430267a657c19d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En guide for å finne den perfekte jeansen. Om du ønsker en løs og romslig passform eller skinny med stretch - har vi den riktige buksen for deg!<\/p>"
+          }
+        },
+        "1638430267a657c19d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sjekk ut guiden her!",
+            "button_link": "shopify:\/\/blogs\/jeans\/jeans-guide-finn-dine-perfekte-jeans"
+          }
+        }
+      },
+      "block_order": [
+        "1638430267a657c19d-0",
+        "1638430267a657c19d-1",
+        "1638430267a657c19d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4flex-blue_18.jpg",
+        "height": "small",
+        "color_scheme": "background-2",
+        "layout": "image_first"
+      }
+    },
     "163836560402fa0d25": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Les mer om våre jeans!",
         "blog": "jeans",
@@ -221,6 +257,7 @@
     "1631094390263d97d1",
     "1626547460af5b6361",
     "16383663363117aab2",
+    "16384302673ded7cd0",
     "163836560402fa0d25",
     "1629157352b193f90f"
   ]
