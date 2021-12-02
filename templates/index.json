@@ -15,40 +15,6 @@
     },
     "1631094390263d97d1": {
       "type": "image-banner",
-      "blocks": {
-        "1631094390263d97d1-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Scrunch",
-            "heading_size": "medium"
-          }
-        },
-        "1631094390263d97d1-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1631094390263d97d1-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1631094390263d97d1-0",
-        "1631094390263d97d1-1",
-        "1631094390263d97d1-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Jeanson-banner_e28a6949-e78b-47ce-bb5d-09a078c5632b.png",
         "image_m": "shopify:\/\/shop_images\/Jeanson-banner-mobil.png",
@@ -82,35 +48,6 @@
     },
     "1638436704317638b5": {
       "type": "rich-text",
-      "blocks": {
-        "16384367048ad60f65-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "16384367048ad60f65-1": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "16384367048ad60f65-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16384367048ad60f65-0",
-        "16384367048ad60f65-1",
-        "16384367048ad60f65-2"
-      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -118,40 +55,6 @@
     },
     "16383663363117aab2": {
       "type": "image-banner",
-      "blocks": {
-        "1638366336ea960849-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "1638366336ea960849-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1638366336ea960849-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "1638366336ea960849-0",
-        "1638366336ea960849-1",
-        "1638366336ea960849-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/4FLEX-banner.png",
         "image_m": "shopify:\/\/shop_images\/4flex-banner-mobil_79e179f4-c12d-4045-ab32-4bf5a860713e.png",
@@ -169,37 +72,6 @@
     },
     "1627975102451ca4ce": {
       "type": "rich-text",
-      "blocks": {
-        "1627975102451ca4ce-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "SEAMLESS COLLECTION",
-            "heading_size": "h2"
-          }
-        },
-        "1627975102451ca4ce-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Sjekk ut vår seamless kolleksjon her. Vi har seamless tights, sports-bh, topper og undertøy.<\/p>"
-          }
-        },
-        "1627975102451ca4ce-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "SHOP HER",
-            "button_link": "shopify:\/\/collections\/seamless-tights-dame",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "1627975102451ca4ce-0",
-        "1627975102451ca4ce-1",
-        "1627975102451ca4ce-2"
-      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
@@ -207,40 +79,6 @@
     },
     "16384365254bb0ce6b": {
       "type": "image-banner",
-      "blocks": {
-        "16384365254a537bd2-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "medium"
-          }
-        },
-        "16384365254a537bd2-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "16384365254a537bd2-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16384365254a537bd2-0",
-        "16384365254a537bd2-1",
-        "16384365254a537bd2-2"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Style-jeansen-banner.png",
         "image_m": "shopify:\/\/shop_images\/style-jeansen-banner-mobil.png",
