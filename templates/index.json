@@ -287,7 +287,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/4flex-blue_18.jpg",
         "height": "small",
-        "color_scheme": "inverse",
+        "color_scheme": "background-2",
         "layout": "image_first"
       }
     }
