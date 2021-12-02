@@ -256,6 +256,22 @@
         "show_text_below": true
       }
     },
+    "1638437047893cafb4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Hverdagsklær",
+        "collection": "hverdagsklar",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "16384302673ded7cd0": {
       "type": "image-with-text",
       "blocks": {
@@ -300,6 +316,7 @@
     "16383663363117aab2",
     "1627975102451ca4ce",
     "16384365254bb0ce6b",
+    "1638437047893cafb4",
     "16384302673ded7cd0"
   ]
 }
