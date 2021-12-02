@@ -47,7 +47,8 @@
           "announcement-bar-0",
           "0030ff7c-cd1b-4fff-a964-c9ee4e993c8b"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -112,6 +113,8 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   }
 }

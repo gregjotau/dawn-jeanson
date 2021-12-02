@@ -92,7 +92,8 @@
         "image_m": "shopify:\/\/shop_images\/Jeanson-banner-mobil.png",
         "image_url": "shopify:\/\/collections\/jeans",
         "image2_url": "",
-        "adapt_height_first_image": false,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
         "show_text_box": true,
         "image_overlay_opacity": 0,
@@ -158,6 +159,7 @@
         "image_m": "shopify:\/\/shop_images\/4flex-banner-mobil_79e179f4-c12d-4045-ab32-4bf5a860713e.png",
         "image_url": "shopify:\/\/products\/4flex-jeans",
         "image2_url": "",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
         "show_text_box": true,
@@ -198,7 +200,8 @@
         },
         "1629157352b193f90f-2": {
           "type": "email_form",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
