@@ -94,13 +94,21 @@
               "heading": "Blog",
               "menu": "blog"
             }
+          },
+          "e749cfc4-8699-4bc4-82e9-58a8c058e84a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Vår familie",
+              "menu": "v-r-familie"
+            }
           }
         },
         "block_order": [
           "3b667cc8-80d2-4c77-85d0-d198aff09291",
           "3e063503-3f13-4266-942b-f40c646c2175",
           "5a66bb68-925b-4a72-9b02-048703aea76a",
-          "e7994161-29d4-41bc-b3eb-5c1903303e21"
+          "e7994161-29d4-41bc-b3eb-5c1903303e21",
+          "e749cfc4-8699-4bc4-82e9-58a8c058e84a"
         ],
         "settings": {
           "color_scheme": "inverse",
