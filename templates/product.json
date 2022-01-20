@@ -5,18 +5,15 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "text_style": "uppercase",
+            "text": "{{ product.vendor }}"
           }
         },
         "title": {
-          "type": "title",
-          "settings": {
-          }
+          "type": "title"
         },
-        "subtitle": {
+        "caption": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
@@ -24,46 +21,22 @@
           }
         },
         "price": {
-          "type": "price",
-          "settings": {
-          }
+          "type": "price"
         },
         "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
+          "type": "variant_picker"
         },
         "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
+          "type": "quantity_selector"
         },
         "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
+          "type": "buy_buttons"
         },
         "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "709fa5d9-f55c-468f-a949-53dbd6b37984": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "NB! When ordering this item, it will take 5-8 days before being dispatched from our European warehouse.",
-            "text_style": "body"
-          }
+          "type": "description"
         },
         "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
+          "type": "share"
         }
       },
       "block_order": [
@@ -75,26 +48,11 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "709fa5d9-f55c-468f-a949-53dbd6b37984",
         "share"
-      ],
-      "settings": {
-        "enable_sticky_info": true,
-        "hide_variants": true,
-        "enable_video_looping": false
-      }
+      ]
     },
     "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
+      "type": "product-recommendations"
     }
   },
   "order": [
