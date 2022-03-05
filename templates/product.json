@@ -3,60 +3,128 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
+        "title": {
+          "type": "title",
           "settings": {
-            "text_style": "uppercase",
-            "text": "{{ product.vendor }}"
           }
         },
-        "title": {
-          "type": "title"
-        },
-        "caption": {
-          "type": "text",
+        "83a9ea71-8f00-4a5c-a8c2-ac4ef0d4603d": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "product": "{{product}}"
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {
+          }
         },
         "variant_picker": {
-          "type": "variant_picker"
-        },
-        "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         },
         "buy_buttons": {
-          "type": "buy_buttons"
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {
+            "icon": "check_mark"
+          }
         },
-        "share": {
-          "type": "share"
+        "eabf9557-eae1-4602-8216-a1fcf53adaa8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Frakt",
+            "content": "<p><strong>Posten <\/strong>leverer pakken din direkte i postkassen, om pakken er for stor går den til <strong>nærmeste butikk<\/strong>. Alternativt kan du få pakken rett i en <strong>butikk<\/strong> eller <strong>pakkeboks<\/strong> du velger selv.  Om du ønsker pakken levert <strong>samme dag<\/strong> tilbyr vi dette med <strong>Porterbuddy<\/strong><\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "576a2eb7-833f-45f5-a1ca-f507f429547d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Produktdetaljer",
+            "content": "<p>{{ product.metafields.my_fields.composition.value }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "7ed2c020-6590-4a00-9d01-dbdd3590ee01": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Passform",
+            "content": "<p>Modellhøyde: {{ product.metafields.my_fields.model_height.value }}<\/p><p>Modellstørrelse: {{ product.metafields.my_fields.model_size.value }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "subtitle",
+        "83a9ea71-8f00-4a5c-a8c2-ac4ef0d4603d",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
-      ]
+        "eabf9557-eae1-4602-8216-a1fcf53adaa8",
+        "576a2eb7-833f-45f5-a1ca-f507f429547d",
+        "7ed2c020-6590-4a00-9d01-dbdd3590ee01"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "gallery_layout": "thumbnail",
+        "media_size": "large",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "desc": "Description",
+        "bg": "#f5f5f5"
+      }
+    },
+    "1638933924cc2996fe": {
+      "type": "apps",
+      "blocks": {
+        "45107f00-8bba-4c3c-acb2-87156f1ba1b8": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "45107f00-8bba-4c3c-acb2-87156f1ba1b8"
+      ],
+      "settings": {
+        "title": "",
+        "background_style": "none",
+        "button_label": "",
+        "columns_desktop": 2,
+        "include_margins": true
+      }
     },
     "product-recommendations": {
-      "type": "product-recommendations"
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
     "main",
+    "1638933924cc2996fe",
     "product-recommendations"
   ]
 }
