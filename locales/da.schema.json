@@ -160,13 +160,7 @@
       "name": "Layout",
       "settings": {
         "page_width": {
-          "label": "Sidebredde",
-          "options__1": {
-            "label": "1200 px"
-          },
-          "options__2": {
-            "label": "1600 px"
-          }
+          "label": "Sidebredde"
         },
         "spacing_sections": {
           "label": "Lodret afstand mellem afsnit"
@@ -300,10 +294,10 @@
           },
           "label": "Position for produktkort"
         },
-        "badge_sale_color_scheme": {
-          "label": "Farveskema for salgsbadges"
+        "sale_badge_color_scheme": {
+          "label": "Farveskema for udsalg-badges"
         },
-        "badge_sold_out_color_scheme": {
+        "sold_out_badge_color_scheme": {
           "label": "Farveskema for udsolgt-badges"
         }
       }
@@ -312,7 +306,7 @@
       "name": "Knapper"
     },
     "variant_pills": {
-      "name": "Variant-piller"
+      "name": "Variantetiketter"
     },
     "inputs": {
       "name": "Inputs"
@@ -357,6 +351,18 @@
         },
         "label": "Farveskema",
         "has_cards_info": "Hvis du vil ændre farveskemaet for kort, skal du opdatere dine temaindstillinger."
+      },
+      "heading_size": {
+        "label": "Størrelse for overskrift",
+        "options__1": {
+          "label": "Lille"
+        },
+        "options__2": {
+          "label": "Medium"
+        },
+        "options__3": {
+          "label": "Stor"
+        }
       }
     },
     "announcement-bar": {
@@ -503,6 +509,21 @@
         },
         "show_view_all": {
           "label": "Aktivér knappen \"Se alle\", hvis en liste indeholder flere kollektioner, end der vises"
+        },
+        "columns_desktop": {
+          "label": "Antallet af kolonner på computer"
+        },
+        "header_mobile": {
+          "content": "Mobillayout"
+        },
+        "columns_mobile": {
+          "label": "Antallet af kolonner på mobil",
+          "options__1": {
+            "label": "1 kolonne"
+          },
+          "options__2": {
+            "label": "2 kolonner"
+          }
         }
       },
       "blocks": {
@@ -547,7 +568,7 @@
           "label": "Blog"
         },
         "post_limit": {
-          "label": "Blogopslag"
+          "label": "Antallet af blogopslag, der skal vises"
         },
         "show_view_all": {
           "label": "Aktivér knappen \"Se alle\", hvis bloggen indeholder flere blogopslag, end der vises"
@@ -561,6 +582,9 @@
         },
         "show_author": {
           "label": "Vis forfatter"
+        },
+        "columns_desktop": {
+          "label": "Antallet af kolonner på computer"
         }
       },
       "presets": {
@@ -609,6 +633,21 @@
         "show_rating": {
           "label": "Vis produktbedømmelser",
           "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Antallet af kolonner på computer"
+        },
+        "header_mobile": {
+          "content": "Mobillayout"
+        },
+        "columns_mobile": {
+          "label": "Antallet af kolonner på mobil",
+          "options__1": {
+            "label": "1 kolonne"
+          },
+          "options__2": {
+            "label": "2 kolonner"
+          }
         }
       },
       "presets": {
@@ -885,15 +924,6 @@
           "settings": {
             "heading": {
               "label": "Overskrift"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Medium"
-              },
-              "options__2": {
-                "label": "Stor"
-              },
-              "label": "Størrelse for overskrift"
             }
           }
         },
@@ -963,8 +993,7 @@
           "options__3": {
             "label": "Stor"
           },
-          "label": "Billedhøjde",
-          "info": "Angiver højden på afsnittet."
+          "label": "Billedhøjde"
         },
         "color_scheme": {
           "options__1": {
@@ -1059,18 +1088,6 @@
           "settings": {
             "heading": {
               "label": "Overskrift"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Lille"
-              },
-              "options__2": {
-                "label": "Medium"
-              },
-              "options__3": {
-                "label": "Stor"
-              },
-              "label": "Størrelse for overskrift"
             }
           }
         },
@@ -1087,9 +1104,6 @@
               },
               "options__2": {
                 "label": "Undertekst"
-              },
-              "options__3": {
-                "label": "Store bogstaver"
               }
             }
           }
@@ -1326,6 +1340,21 @@
         "show_rating": {
           "label": "Vis produktbedømmelser",
           "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Antallet af kolonner på computer"
+        },
+        "header_mobile": {
+          "content": "Mobillayout"
+        },
+        "columns_mobile": {
+          "label": "Antallet af kolonner på mobil",
+          "options__1": {
+            "label": "1 kolonne"
+          },
+          "options__2": {
+            "label": "2 kolonner"
+          }
         }
       }
     },
@@ -1468,7 +1497,7 @@
                 "label": "Rullemenu"
               },
               "options__2": {
-                "label": "Piller"
+                "label": "Etiketter"
               }
             }
           }
@@ -1521,72 +1550,132 @@
                 "label": "Ingen"
               },
               "options__2": {
-                "label": "Æske"
+                "label": "Æble"
               },
               "options__3": {
-                "label": "Chatboble"
+                "label": "Banan"
               },
               "options__4": {
-                "label": "Flueben"
+                "label": "Flaske"
               },
               "options__5": {
-                "label": "Tørrer"
+                "label": "Æske"
               },
               "options__6": {
-                "label": "Øje"
+                "label": "Gulerod"
               },
               "options__7": {
-                "label": "Hjerte"
+                "label": "Chatboble"
               },
               "options__8": {
-                "label": "Jern"
+                "label": "Flueben"
               },
               "options__9": {
-                "label": "Blad"
+                "label": "Clipboard"
               },
               "options__10": {
-                "label": "Læder"
+                "label": "Mejeri"
               },
               "options__11": {
-                "label": "Lås"
+                "label": "Laktosefri"
               },
               "options__12": {
-                "label": "Kortnål"
+                "label": "Tørrer"
               },
               "options__13": {
-                "label": "Bukser"
+                "label": "Øje"
               },
               "options__14": {
-                "label": "Fly"
+                "label": "Ild"
               },
               "options__15": {
-                "label": "Prismærke"
+                "label": "Glutenfri"
               },
               "options__16": {
-                "label": "Spørgsmålstegn"
+                "label": "Hjerte"
               },
               "options__17": {
-                "label": "Returnering"
+                "label": "Jern"
               },
               "options__18": {
-                "label": "Lineal"
+                "label": "Blad"
               },
               "options__19": {
-                "label": "Skjorte"
+                "label": "Læder"
               },
               "options__20": {
-                "label": "Sko"
+                "label": "Lyn"
               },
               "options__21": {
-                "label": "Silhuet"
+                "label": "Læbestift"
               },
               "options__22": {
-                "label": "Stjerne"
+                "label": "Lås"
               },
               "options__23": {
-                "label": "Lastbil"
+                "label": "Kortnål"
               },
               "options__24": {
+                "label": "Nøddefri"
+              },
+              "options__25": {
+                "label": "Bukser"
+              },
+              "options__26": {
+                "label": "Poteaftryk"
+              },
+              "options__27": {
+                "label": "Peber"
+              },
+              "options__28": {
+                "label": "Parfume"
+              },
+              "options__29": {
+                "label": "Fly"
+              },
+              "options__30": {
+                "label": "Plante"
+              },
+              "options__31": {
+                "label": "Prismærke"
+              },
+              "options__32": {
+                "label": "Spørgsmålstegn"
+              },
+              "options__33": {
+                "label": "Genanvendelse"
+              },
+              "options__34": {
+                "label": "Returnering"
+              },
+              "options__35": {
+                "label": "Lineal"
+              },
+              "options__36": {
+                "label": "Serveringsfad"
+              },
+              "options__37": {
+                "label": "Skjorte"
+              },
+              "options__38": {
+                "label": "Sko"
+              },
+              "options__39": {
+                "label": "Silhuet"
+              },
+              "options__40": {
+                "label": "Snefnug"
+              },
+              "options__41": {
+                "label": "Stjerne"
+              },
+              "options__42": {
+                "label": "Stopur"
+              },
+              "options__43": {
+                "label": "Lastbil"
+              },
+              "options__44": {
                 "label": "Vask"
               }
             }
@@ -1707,6 +1796,21 @@
         "show_rating": {
           "label": "Vis produktbedømmelser",
           "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Antallet af kolonner på computer"
+        },
+        "header_mobile": {
+          "content": "Mobillayout"
+        },
+        "columns_mobile": {
+          "label": "Antallet af kolonner på mobil",
+          "options__1": {
+            "label": "1 kolonne"
+          },
+          "options__2": {
+            "label": "2 kolonner"
+          }
         }
       }
     },
@@ -1769,6 +1873,21 @@
         },
         "swipe_on_mobile": {
           "label": "Aktivér swipe på mobilen"
+        },
+        "columns_desktop": {
+          "label": "Antallet af kolonner på computer"
+        },
+        "header_mobile": {
+          "content": "Mobillayout"
+        },
+        "columns_mobile": {
+          "label": "Antallet af kolonner på mobil",
+          "options__1": {
+            "label": "1 kolonne"
+          },
+          "options__2": {
+            "label": "2 kolonner"
+          }
         }
       },
       "blocks": {
@@ -1894,6 +2013,24 @@
         "show_rating": {
           "label": "Vis produktbedømmelser",
           "info": "Hvis du vil vise bedømmelser, skal du tilføje en app til produktbedømmelse. [Få mere at vide](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Antallet af kolonner på computer"
+        },
+        "header_mobile": {
+          "content": "Mobillayout"
+        },
+        "columns_mobile": {
+          "label": "Antallet af kolonner på mobil",
+          "options__1": {
+            "label": "1 kolonne"
+          },
+          "options__2": {
+            "label": "2 kolonner"
+          }
+        },
+        "products_to_show": {
+          "label": "Maksimalt antal produkter, der skal vises"
         }
       }
     },
@@ -1928,18 +2065,6 @@
           "settings": {
             "heading": {
               "label": "Overskrift"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Lille"
-              },
-              "options__2": {
-                "label": "Medium"
-              },
-              "label": "Størrelse for overskrift",
-              "options__3": {
-                "label": "Stor"
-              }
             }
           }
         },
@@ -2052,7 +2177,7 @@
                 "label": "Rullemenu"
               },
               "options__2": {
-                "label": "Piller"
+                "label": "Etiketter"
               }
             }
           }
@@ -2310,102 +2435,14 @@
             "label": "Tal"
           }
         },
-        "heading_size": {
-          "label": "Skriftstørrelse til overskrifter",
-          "options__1": {
-            "label": "Medium"
-          },
-          "options__2": {
-            "label": "Stor"
-          }
-        },
-        "box_align": {
-          "label": "Placering af indhold på computer",
-          "options__1": {
-            "label": "Øverst til venstre"
-          },
-          "options__2": {
-            "label": "Øverst i midten"
-          },
-          "options__3": {
-            "label": "Øverst til højre"
-          },
-          "options__4": {
-            "label": "Midt på til venstre"
-          },
-          "options__5": {
-            "label": "Midt på centreret"
-          },
-          "options__6": {
-            "label": "Midt på til højre"
-          },
-          "options__7": {
-            "label": "Nederst til venstre"
-          },
-          "options__8": {
-            "label": "Nederst i midten"
-          },
-          "options__9": {
-            "label": "Nederst til højre"
-          }
-        },
-        "show_text_box": {
-          "label": "Vis container på skrivebord"
-        },
-        "text_alignment": {
-          "label": "Justering af indhold på computer",
-          "option_1": {
-            "label": "Venstre"
-          },
-          "option_2": {
-            "label": "Centreret"
-          },
-          "option_3": {
-            "label": "Højre"
-          }
-        },
-        "image_overlay_opacity": {
-          "label": "Billedoverlejringens uigennemsigtighed"
-        },
         "auto_rotate": {
           "label": "Roter automatisk slides"
         },
         "change_slides_speed": {
           "label": "Skift slide hver"
         },
-        "color_scheme": {
-          "label": "Farveskema (felt)",
-          "info": "Synlig, når containeren vises.",
-          "options__1": {
-            "label": "Markering 1"
-          },
-          "options__2": {
-            "label": "Markering 2"
-          },
-          "options__3": {
-            "label": "Baggrund 1"
-          },
-          "options__4": {
-            "label": "Baggrund 2"
-          },
-          "options__5": {
-            "label": "Omvendt"
-          }
-        },
         "mobile": {
           "content": "Mobillayout"
-        },
-        "text_alignment_mobile": {
-          "label": "Justering af indhold på mobil",
-          "options__1": {
-            "label": "Venstre"
-          },
-          "options__2": {
-            "label": "Centreret"
-          },
-          "options__3": {
-            "label": "Højre"
-          }
         },
         "show_text_below": {
           "label": "Vis indhold under billeder på mobiltelefoner"
@@ -2434,23 +2471,10 @@
               "info": "Lad feltet være tomt for at skjule knappen."
             },
             "link": {
-              "label": "Knaplink",
-              "info": "Lad feltet være tomt for at skjule knappen."
+              "label": "Knaplink"
             },
             "secondary_style": {
               "label": "Brug rammeknaptypografi"
-            },
-            "heading_size": {
-              "label": "Størrelse for overskrift",
-              "options__1": {
-                "label": "Lille"
-              },
-              "options__2": {
-                "label": "Medium"
-              },
-              "options__3": {
-                "label": "Stor"
-              }
             },
             "box_align": {
               "label": "Placering af indhold på computer",
@@ -2533,10 +2557,10 @@
               }
             }
           }
-        },
-        "presets": {
-          "name": "Diasshow"
         }
+      },
+      "presets": {
+        "name": "Diasshow"
       }
     },
     "collapsible_content": {
@@ -2661,72 +2685,132 @@
                 "label": "Ingen"
               },
               "options__2": {
-                "label": "Felt"
+                "label": "Æble"
               },
               "options__3": {
-                "label": "Chatboble"
+                "label": "Banan"
               },
               "options__4": {
-                "label": "Flueben"
+                "label": "Flaske"
               },
               "options__5": {
-                "label": "Tørrer"
+                "label": "Æske"
               },
               "options__6": {
-                "label": "Øje"
+                "label": "Gulerod"
               },
               "options__7": {
-                "label": "Hjerte"
+                "label": "Chatboble"
               },
               "options__8": {
-                "label": "Jern"
+                "label": "Flueben"
               },
               "options__9": {
-                "label": "Blad"
+                "label": "Clipboard"
               },
               "options__10": {
-                "label": "Læder"
+                "label": "Mejeri"
               },
               "options__11": {
-                "label": "Lås"
+                "label": "Laktosefri"
               },
               "options__12": {
-                "label": "Kortnål"
+                "label": "Tørrer"
               },
               "options__13": {
-                "label": "Bukser"
+                "label": "Øje"
               },
               "options__14": {
-                "label": "Fly"
+                "label": "Ild"
               },
               "options__15": {
-                "label": "Prismærke"
+                "label": "Glutenfri"
               },
               "options__16": {
-                "label": "Spørgsmålstegn"
+                "label": "Hjerte"
               },
               "options__17": {
-                "label": "Returnering"
+                "label": "Jern"
               },
               "options__18": {
-                "label": "Lineal"
+                "label": "Blad"
               },
               "options__19": {
-                "label": "Skjorte"
+                "label": "Læder"
               },
               "options__20": {
-                "label": "Sko"
+                "label": "Lyn"
               },
               "options__21": {
-                "label": "Silhuet"
+                "label": "Læbestift"
               },
               "options__22": {
-                "label": "Stjerne"
+                "label": "Lås"
               },
               "options__23": {
-                "label": "Lastbil"
+                "label": "Kortnål"
               },
               "options__24": {
+                "label": "Nøddefri"
+              },
+              "options__25": {
+                "label": "Bukser"
+              },
+              "options__26": {
+                "label": "Poteaftryk"
+              },
+              "options__27": {
+                "label": "Peber"
+              },
+              "options__28": {
+                "label": "Parfume"
+              },
+              "options__29": {
+                "label": "Fly"
+              },
+              "options__30": {
+                "label": "Plante"
+              },
+              "options__31": {
+                "label": "Prismærke"
+              },
+              "options__32": {
+                "label": "Spørgsmålstegn"
+              },
+              "options__33": {
+                "label": "Genanvendelse"
+              },
+              "options__34": {
+                "label": "Returnering"
+              },
+              "options__35": {
+                "label": "Lineal"
+              },
+              "options__36": {
+                "label": "Serveringsfad"
+              },
+              "options__37": {
+                "label": "Skjorte"
+              },
+              "options__38": {
+                "label": "Sko"
+              },
+              "options__39": {
+                "label": "Silhuet"
+              },
+              "options__40": {
+                "label": "Snefnug"
+              },
+              "options__41": {
+                "label": "Stjerne"
+              },
+              "options__42": {
+                "label": "Stopur"
+              },
+              "options__43": {
+                "label": "Lastbil"
+              },
+              "options__44": {
                 "label": "Vask"
               }
             }

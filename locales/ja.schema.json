@@ -160,13 +160,7 @@
       "name": "レイアウト",
       "settings": {
         "page_width": {
-          "label": "ページの幅",
-          "options__1": {
-            "label": "1200ピクセル"
-          },
-          "options__2": {
-            "label": "1600ピクセル"
-          }
+          "label": "ページの幅"
         },
         "spacing_sections": {
           "label": "セクション間の垂直スペース"
@@ -300,10 +294,10 @@
           },
           "label": "商品カードの位置"
         },
-        "badge_sale_color_scheme": {
+        "sale_badge_color_scheme": {
           "label": "販売バッジの配色"
         },
-        "badge_sold_out_color_scheme": {
+        "sold_out_badge_color_scheme": {
           "label": "完売バッジの配色"
         }
       }
@@ -312,7 +306,7 @@
       "name": "ボタン"
     },
     "variant_pills": {
-      "name": "バリエーションピル"
+      "name": "バリエーションのピル型ボタン"
     },
     "inputs": {
       "name": "入力"
@@ -357,6 +351,18 @@
         },
         "label": "配色",
         "has_cards_info": "カードの配色を変更するには、テーマ設定を更新してください。"
+      },
+      "heading_size": {
+        "label": "見出しのサイズ",
+        "options__1": {
+          "label": "小"
+        },
+        "options__2": {
+          "label": "中"
+        },
+        "options__3": {
+          "label": "大"
+        }
       }
     },
     "announcement-bar": {
@@ -503,6 +509,21 @@
         },
         "show_view_all": {
           "label": "リストに表示されているよりも多くのコレクションが含まれている場合、「すべてを表示」ボタンを有効にします"
+        },
+        "columns_desktop": {
+          "label": "デスクトップの列数"
+        },
+        "header_mobile": {
+          "content": "モバイルのレイアウト"
+        },
+        "columns_mobile": {
+          "label": "モバイルでの列数",
+          "options__1": {
+            "label": "1列"
+          },
+          "options__2": {
+            "label": "2列"
+          }
         }
       },
       "blocks": {
@@ -547,7 +568,7 @@
           "label": "ブログ"
         },
         "post_limit": {
-          "label": "ブログ記事"
+          "label": "表示するブログ記事数"
         },
         "show_view_all": {
           "label": "ブログに表示されているよりも多くのブログ記事が含まれている場合、「すべてを表示」ボタンを有効にします"
@@ -561,6 +582,9 @@
         },
         "show_author": {
           "label": "執筆者を表示する"
+        },
+        "columns_desktop": {
+          "label": "デスクトップの列数"
         }
       },
       "presets": {
@@ -609,6 +633,21 @@
         "show_rating": {
           "label": "商品の評価を表示",
           "info": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "デスクトップの列数"
+        },
+        "header_mobile": {
+          "content": "モバイルのレイアウト"
+        },
+        "columns_mobile": {
+          "label": "モバイルでの列数",
+          "options__1": {
+            "label": "1列"
+          },
+          "options__2": {
+            "label": "2列"
+          }
         }
       },
       "presets": {
@@ -884,15 +923,6 @@
           "settings": {
             "heading": {
               "label": "見出し"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "中"
-              },
-              "options__2": {
-                "label": "大"
-              },
-              "label": "見出しのサイズ"
             }
           },
           "name": "見出し"
@@ -963,8 +993,7 @@
           "options__3": {
             "label": "大"
           },
-          "label": "画像の高さ",
-          "info": "セクションの高さを決めます。"
+          "label": "画像の高さ"
         },
         "color_scheme": {
           "options__1": {
@@ -1058,18 +1087,6 @@
           "settings": {
             "heading": {
               "label": "見出し"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "小"
-              },
-              "options__2": {
-                "label": "中"
-              },
-              "options__3": {
-                "label": "大"
-              },
-              "label": "見出しのサイズ"
             }
           },
           "name": "見出し"
@@ -1323,6 +1340,21 @@
         "show_rating": {
           "label": "商品の評価を表示",
           "info": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "デスクトップの列数"
+        },
+        "header_mobile": {
+          "content": "モバイルのレイアウト"
+        },
+        "columns_mobile": {
+          "label": "モバイルでの列数",
+          "options__1": {
+            "label": "1列"
+          },
+          "options__2": {
+            "label": "2列"
+          }
         }
       }
     },
@@ -1455,7 +1487,7 @@
                 "label": "ドロップダウン"
               },
               "options__2": {
-                "label": "カプセル形"
+                "label": "ピル型ボタン"
               }
             }
           },
@@ -1502,72 +1534,132 @@
                 "label": "なし"
               },
               "options__2": {
-                "label": "箱"
+                "label": "リンゴ"
               },
               "options__3": {
-                "label": "チャットバブル"
+                "label": "バナナ"
               },
               "options__4": {
-                "label": "チェックマーク"
+                "label": "ボトル"
               },
               "options__5": {
-                "label": "ドライヤー"
+                "label": "ボックス"
               },
               "options__6": {
-                "label": "目"
+                "label": "ニンジン"
               },
               "options__7": {
-                "label": "ハート"
+                "label": "チャットバブル"
               },
               "options__8": {
-                "label": "アイロン"
+                "label": "チェックマーク"
               },
               "options__9": {
-                "label": "葉"
+                "label": "クリップボード"
               },
               "options__10": {
-                "label": "革製品"
+                "label": "乳製品"
               },
               "options__11": {
-                "label": "ロック"
+                "label": "乳製品不使用"
               },
               "options__12": {
-                "label": "マップピン"
+                "label": "ドライヤー"
               },
               "options__13": {
-                "label": "パンツ"
+                "label": "目"
               },
               "options__14": {
-                "label": "飛行機"
+                "label": "ファイヤー"
               },
               "options__15": {
-                "label": "値札"
+                "label": "グルテン不使用"
               },
               "options__16": {
-                "label": "疑問符"
+                "label": "ハート"
               },
               "options__17": {
-                "label": "返品"
+                "label": "アイロン"
               },
               "options__18": {
-                "label": "定規"
+                "label": "葉"
               },
               "options__19": {
-                "label": "シャツ"
+                "label": "革製品"
               },
               "options__20": {
-                "label": "靴"
+                "label": "稲妻"
               },
               "options__21": {
-                "label": "シルエット"
+                "label": "リップスティック"
               },
               "options__22": {
-                "label": "星"
+                "label": "ロック"
               },
               "options__23": {
-                "label": "トラック"
+                "label": "マップピン"
               },
               "options__24": {
+                "label": "ナッツ類不使用"
+              },
+              "options__25": {
+                "label": "パンツ"
+              },
+              "options__26": {
+                "label": "肉球プリント"
+              },
+              "options__27": {
+                "label": "こしょう"
+              },
+              "options__28": {
+                "label": "香水"
+              },
+              "options__29": {
+                "label": "飛行機"
+              },
+              "options__30": {
+                "label": "植物"
+              },
+              "options__31": {
+                "label": "値札"
+              },
+              "options__32": {
+                "label": "疑問符"
+              },
+              "options__33": {
+                "label": "リサイクル"
+              },
+              "options__34": {
+                "label": "返品"
+              },
+              "options__35": {
+                "label": "定規"
+              },
+              "options__36": {
+                "label": "取り皿"
+              },
+              "options__37": {
+                "label": "シャツ"
+              },
+              "options__38": {
+                "label": "靴"
+              },
+              "options__39": {
+                "label": "シルエット"
+              },
+              "options__40": {
+                "label": "雪片"
+              },
+              "options__41": {
+                "label": "星"
+              },
+              "options__42": {
+                "label": "ストップウォッチ"
+              },
+              "options__43": {
+                "label": "トラック"
+              },
+              "options__44": {
                 "label": "洗濯"
               }
             }
@@ -1704,6 +1796,21 @@
         "show_rating": {
           "label": "商品の評価を表示",
           "info": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "デスクトップの列数"
+        },
+        "header_mobile": {
+          "content": "モバイルのレイアウト"
+        },
+        "columns_mobile": {
+          "label": "モバイルでの列数",
+          "options__1": {
+            "label": "1列"
+          },
+          "options__2": {
+            "label": "2列"
+          }
         }
       }
     },
@@ -1766,6 +1873,21 @@
         },
         "swipe_on_mobile": {
           "label": "モバイルでスワイプを有効にする"
+        },
+        "columns_desktop": {
+          "label": "デスクトップの列数"
+        },
+        "header_mobile": {
+          "content": "モバイルのレイアウト"
+        },
+        "columns_mobile": {
+          "label": "モバイルでの列数",
+          "options__1": {
+            "label": "1列"
+          },
+          "options__2": {
+            "label": "2列"
+          }
         }
       },
       "blocks": {
@@ -1891,6 +2013,24 @@
         "show_rating": {
           "label": "商品の評価を表示",
           "info": "評価を表示するには、商品評価アプリを追加します。[詳しくはこちら](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "デスクトップの列数"
+        },
+        "header_mobile": {
+          "content": "モバイルのレイアウト"
+        },
+        "columns_mobile": {
+          "label": "モバイルでの列数",
+          "options__1": {
+            "label": "1列"
+          },
+          "options__2": {
+            "label": "2列"
+          }
+        },
+        "products_to_show": {
+          "label": "表示する商品の最大数"
         }
       }
     },
@@ -1924,18 +2064,6 @@
           "settings": {
             "heading": {
               "label": "見出し"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "小"
-              },
-              "options__2": {
-                "label": "中"
-              },
-              "label": "見出しのサイズ",
-              "options__3": {
-                "label": "大"
-              }
             }
           },
           "name": "見出し"
@@ -2049,7 +2177,7 @@
                 "label": "ドロップダウン"
               },
               "options__2": {
-                "label": "カプセル形"
+                "label": "ピル型ボタン"
               }
             }
           }
@@ -2348,18 +2476,6 @@
             "secondary_style": {
               "label": "アウトラインボタンのスタイルを使用する"
             },
-            "heading_size": {
-              "label": "見出しのサイズ",
-              "options__1": {
-                "label": "小"
-              },
-              "options__2": {
-                "label": "中"
-              },
-              "options__3": {
-                "label": "大"
-              }
-            },
             "box_align": {
               "label": "デスクトップのコンテンツ位置",
               "options__1": {
@@ -2569,72 +2685,132 @@
                 "label": "なし"
               },
               "options__2": {
-                "label": "ボックス"
+                "label": "リンゴ"
               },
               "options__3": {
-                "label": "チャットバブル"
+                "label": "バナナ"
               },
               "options__4": {
-                "label": "チェックマーク"
+                "label": "ボトル"
               },
               "options__5": {
-                "label": "ドライヤー"
+                "label": "ボックス"
               },
               "options__6": {
-                "label": "目"
+                "label": "ニンジン"
               },
               "options__7": {
-                "label": "ハート"
+                "label": "チャットバブル"
               },
               "options__8": {
-                "label": "アイロン"
+                "label": "チェックマーク"
               },
               "options__9": {
-                "label": "葉"
+                "label": "クリップボード"
               },
               "options__10": {
-                "label": "革製品"
+                "label": "乳製品"
               },
               "options__11": {
-                "label": "ロック"
+                "label": "乳製品不使用"
               },
               "options__12": {
-                "label": "マップピン"
+                "label": "ドライヤー"
               },
               "options__13": {
-                "label": "パンツ・ズボン"
+                "label": "目"
               },
               "options__14": {
-                "label": "飛行機"
+                "label": "ファイヤー"
               },
               "options__15": {
-                "label": "値札"
+                "label": "グルテン不使用"
               },
               "options__16": {
-                "label": "疑問符"
+                "label": "ハート"
               },
               "options__17": {
-                "label": "返品"
+                "label": "アイロン"
               },
               "options__18": {
-                "label": "定規"
+                "label": "葉"
               },
               "options__19": {
-                "label": "シャツ"
+                "label": "革製品"
               },
               "options__20": {
-                "label": "靴"
+                "label": "稲妻"
               },
               "options__21": {
-                "label": "シルエット"
+                "label": "リップスティック"
               },
               "options__22": {
-                "label": "星"
+                "label": "ロック"
               },
               "options__23": {
-                "label": "トラック"
+                "label": "マップピン"
               },
               "options__24": {
+                "label": "ナッツ類不使用"
+              },
+              "options__25": {
+                "label": "パンツ"
+              },
+              "options__26": {
+                "label": "肉球プリント"
+              },
+              "options__27": {
+                "label": "こしょう"
+              },
+              "options__28": {
+                "label": "香水"
+              },
+              "options__29": {
+                "label": "飛行機"
+              },
+              "options__30": {
+                "label": "植物"
+              },
+              "options__31": {
+                "label": "値札"
+              },
+              "options__32": {
+                "label": "疑問符"
+              },
+              "options__33": {
+                "label": "リサイクル"
+              },
+              "options__34": {
+                "label": "返品"
+              },
+              "options__35": {
+                "label": "定規"
+              },
+              "options__36": {
+                "label": "取り皿"
+              },
+              "options__37": {
+                "label": "シャツ"
+              },
+              "options__38": {
+                "label": "靴"
+              },
+              "options__39": {
+                "label": "シルエット"
+              },
+              "options__40": {
+                "label": "雪片"
+              },
+              "options__41": {
+                "label": "星"
+              },
+              "options__42": {
+                "label": "ストップウォッチ"
+              },
+              "options__43": {
+                "label": "トラック"
+              },
+              "options__44": {
                 "label": "洗濯"
               }
             }

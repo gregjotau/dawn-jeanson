@@ -160,13 +160,7 @@
       "name": "Düzen",
       "settings": {
         "page_width": {
-          "label": "Sayfa genişliği",
-          "options__1": {
-            "label": "1200 piksel"
-          },
-          "options__2": {
-            "label": "1600 piksel"
-          }
+          "label": "Sayfa genişliği"
         },
         "spacing_sections": {
           "label": "Bölümler arasında dikey boşluk"
@@ -300,10 +294,10 @@
           },
           "label": "Ürün kartı konumu"
         },
-        "badge_sale_color_scheme": {
+        "sale_badge_color_scheme": {
           "label": "İndirim rozeti renk şeması"
         },
-        "badge_sold_out_color_scheme": {
+        "sold_out_badge_color_scheme": {
           "label": "Tükendi rozeti renk şeması"
         }
       }
@@ -312,7 +306,7 @@
       "name": "Düğmeler"
     },
     "variant_pills": {
-      "name": "Varyasyon pill'leri"
+      "name": "Varyasyon seçenekleri"
     },
     "inputs": {
       "name": "Girdiler"
@@ -357,6 +351,18 @@
         },
         "label": "Renk şeması",
         "has_cards_info": "Kart renk şemasını değiştirmek için tema ayarlarınızı güncelleyin."
+      },
+      "heading_size": {
+        "label": "Başlık boyutu",
+        "options__1": {
+          "label": "Küçük"
+        },
+        "options__2": {
+          "label": "Orta"
+        },
+        "options__3": {
+          "label": "Büyük"
+        }
       }
     },
     "announcement-bar": {
@@ -503,6 +509,21 @@
         },
         "show_view_all": {
           "label": "Liste gösterilenden daha fazla koleksiyon içeriyorsa \"Tümünü görüntüle\" düğmesini etkinleştir"
+        },
+        "columns_desktop": {
+          "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       },
       "blocks": {
@@ -547,7 +568,7 @@
           "label": "Blog"
         },
         "post_limit": {
-          "label": "Blog gönderileri"
+          "label": "Gösterilecek blog gönderisi sayısı"
         },
         "show_view_all": {
           "label": "Blog gösterilenden daha fazla blog gönderisi içeriyorsa \"Tümünü görüntüle\" düğmesini etkinleştir"
@@ -561,6 +582,9 @@
         },
         "show_author": {
           "label": "Yazarı göster"
+        },
+        "columns_desktop": {
+          "label": "Masaüstündeki sütun sayısı"
         }
       },
       "presets": {
@@ -609,6 +633,21 @@
         "show_rating": {
           "label": "Ürün puanlarını göster",
           "info": "Puan göstermek için bir ürün puanlandırma uygulaması ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       },
       "presets": {
@@ -885,15 +924,6 @@
           "settings": {
             "heading": {
               "label": "Başlık"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Orta"
-              },
-              "options__2": {
-                "label": "Büyük"
-              },
-              "label": "Başlık boyutu"
             }
           }
         },
@@ -963,8 +993,7 @@
           "options__3": {
             "label": "Büyük"
           },
-          "label": "Görsel yüksekliği",
-          "info": "Bölüm yüksekliğini belirler."
+          "label": "Görsel yüksekliği"
         },
         "color_scheme": {
           "options__1": {
@@ -1059,18 +1088,6 @@
           "settings": {
             "heading": {
               "label": "Başlık"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Küçük"
-              },
-              "options__2": {
-                "label": "Orta"
-              },
-              "options__3": {
-                "label": "Büyük"
-              },
-              "label": "Başlık boyutu"
             }
           }
         },
@@ -1087,9 +1104,6 @@
               },
               "options__2": {
                 "label": "Alt yazı"
-              },
-              "options__3": {
-                "label": "Büyük harf"
               }
             }
           }
@@ -1326,6 +1340,21 @@
         "show_rating": {
           "label": "Ürün puanlarını göster",
           "info": "Puan göstermek için bir ürün puanlandırma uygulaması ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       }
     },
@@ -1467,7 +1496,7 @@
                 "label": "Açılır liste"
               },
               "options__2": {
-                "label": "Haplar"
+                "label": "Seçenekler"
               }
             }
           }
@@ -1519,75 +1548,135 @@
                 "label": "Hiçbiri"
               },
               "options__2": {
-                "label": "kutusu eklenemez"
+                "label": "Elma"
               },
               "options__3": {
-                "label": "Sohbet balonu"
+                "label": "Muz"
               },
               "options__4": {
-                "label": "Onay işareti"
+                "label": "Şişe"
               },
               "options__5": {
-                "label": "Kurutucu"
+                "label": "Kutu"
               },
               "options__6": {
-                "label": "Göz"
+                "label": "Havuç"
               },
               "options__7": {
-                "label": "Kalp"
+                "label": "Sohbet balonu"
               },
               "options__8": {
-                "label": "Ütü"
+                "label": "Onay işareti"
               },
               "options__9": {
-                "label": "Yaprak"
+                "label": "Pano"
               },
               "options__10": {
-                "label": "Deri"
+                "label": "Süt ürünü"
               },
               "options__11": {
-                "label": "Kilit"
+                "label": "Süt ürünü içermez"
               },
               "options__12": {
-                "label": "Harita pini"
+                "label": "Kurutucu"
               },
               "options__13": {
-                "label": "Pantolonlar"
+                "label": "Göz"
               },
               "options__14": {
-                "label": "Uçak"
+                "label": "Ateş"
               },
               "options__15": {
-                "label": "Fiyat etiketi"
+                "label": "Glütensiz"
               },
               "options__16": {
-                "label": "Soru işareti"
+                "label": "Kalp"
               },
               "options__17": {
-                "label": "İade"
+                "label": "Ütü"
               },
               "options__18": {
-                "label": "Cetvel"
+                "label": "Yaprak"
               },
               "options__19": {
-                "label": "Gömlek"
+                "label": "Deri"
               },
               "options__20": {
-                "label": "Ayakkabı"
+                "label": "Şimşek"
               },
               "options__21": {
-                "label": "Silüet"
+                "label": "Ruj"
               },
               "options__22": {
-                "label": "Yıldız"
+                "label": "Kilit"
               },
               "options__23": {
-                "label": "Kamyon"
+                "label": "Harita pini"
               },
               "options__24": {
-                "label": "Yıkama"
+                "label": "Kabuklu yemişsiz"
               },
-              "label": "Simge"
+              "label": "Simge",
+              "options__25": {
+                "label": "Pantolon"
+              },
+              "options__26": {
+                "label": "Pati izi"
+              },
+              "options__27": {
+                "label": "Biber"
+              },
+              "options__28": {
+                "label": "Parfüm"
+              },
+              "options__29": {
+                "label": "Uçak"
+              },
+              "options__30": {
+                "label": "Bitki"
+              },
+              "options__31": {
+                "label": "Fiyat etiketi"
+              },
+              "options__32": {
+                "label": "Soru işareti"
+              },
+              "options__33": {
+                "label": "Geri dönüşüm"
+              },
+              "options__34": {
+                "label": "İade"
+              },
+              "options__35": {
+                "label": "Cetvel"
+              },
+              "options__36": {
+                "label": "Servis tabağı"
+              },
+              "options__37": {
+                "label": "Gömlek"
+              },
+              "options__38": {
+                "label": "Ayakkabı"
+              },
+              "options__39": {
+                "label": "Silüet"
+              },
+              "options__40": {
+                "label": "Kar tanesi"
+              },
+              "options__41": {
+                "label": "Yıldız"
+              },
+              "options__42": {
+                "label": "Kronometre"
+              },
+              "options__43": {
+                "label": "Kamyon"
+              },
+              "options__44": {
+                "label": "Yıkama"
+              }
             }
           }
         },
@@ -1707,6 +1796,21 @@
         "show_rating": {
           "label": "Ürün puanlarını göster",
           "info": "Puan göstermek için bir ürün puanlandırma uygulaması ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       }
     },
@@ -1769,6 +1873,21 @@
         },
         "swipe_on_mobile": {
           "label": "Mobil cihazda kaydırmayı etkinleştir"
+        },
+        "columns_desktop": {
+          "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       },
       "blocks": {
@@ -1894,6 +2013,24 @@
         "show_rating": {
           "label": "Ürün puanlarını göster",
           "info": "Puan göstermek için bir ürün puanlandırma uygulaması ekleyin. [Daha fazla bilgi edinin](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
+        },
+        "columns_desktop": {
+          "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
+        },
+        "products_to_show": {
+          "label": "Gösterilecek maksimum ürün sayısı"
         }
       }
     },
@@ -1928,18 +2065,6 @@
           "settings": {
             "heading": {
               "label": "Başlık"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Küçük"
-              },
-              "options__2": {
-                "label": "Orta"
-              },
-              "label": "Başlık boyutu",
-              "options__3": {
-                "label": "Büyük"
-              }
             }
           }
         },
@@ -2052,7 +2177,7 @@
                 "label": "Açılır menü"
               },
               "options__2": {
-                "label": "Haplar"
+                "label": "Seçenekler"
               }
             }
           }
@@ -2351,18 +2476,6 @@
             "secondary_style": {
               "label": "Dış çizgi düğme stilini kullan"
             },
-            "heading_size": {
-              "label": "Başlık boyutu",
-              "options__1": {
-                "label": "Küçük"
-              },
-              "options__2": {
-                "label": "Orta"
-              },
-              "options__3": {
-                "label": "Büyük"
-              }
-            },
             "box_align": {
               "label": "Masaüstü içerik konumu",
               "options__1": {
@@ -2572,72 +2685,132 @@
                 "label": "Hiçbiri"
               },
               "options__2": {
-                "label": "Kutu"
+                "label": "Elma"
               },
               "options__3": {
-                "label": "Sohbet balonu"
+                "label": "Muz"
               },
               "options__4": {
-                "label": "Onay işareti"
+                "label": "Şişe"
               },
               "options__5": {
-                "label": "Kurutucu"
+                "label": "Kutu"
               },
               "options__6": {
-                "label": "Göz"
+                "label": "Havuç"
               },
               "options__7": {
-                "label": "Kalp"
+                "label": "Sohbet balonu"
               },
               "options__8": {
-                "label": "Ütü"
+                "label": "Onay işareti"
               },
               "options__9": {
-                "label": "Yaprak"
+                "label": "Pano"
               },
               "options__10": {
-                "label": "Deri"
+                "label": "Süt ürünü"
               },
               "options__11": {
-                "label": "Kilit"
+                "label": "Süt ürünü içermez"
               },
               "options__12": {
-                "label": "Harita pini"
+                "label": "Kurutucu"
               },
               "options__13": {
-                "label": "Pantolon"
+                "label": "Göz"
               },
               "options__14": {
-                "label": "Uçak"
+                "label": "Ateş"
               },
               "options__15": {
-                "label": "Fiyat etiketi"
+                "label": "Glütensiz"
               },
               "options__16": {
-                "label": "Soru işareti"
+                "label": "Kalp"
               },
               "options__17": {
-                "label": "İade"
+                "label": "Ütü"
               },
               "options__18": {
-                "label": "Cetvel"
+                "label": "Yaprak"
               },
               "options__19": {
-                "label": "Gömlek"
+                "label": "Deri"
               },
               "options__20": {
-                "label": "Ayakkabı"
+                "label": "Şimşek"
               },
               "options__21": {
-                "label": "Silüet"
+                "label": "Ruj"
               },
               "options__22": {
-                "label": "Yıldız"
+                "label": "Kilit"
               },
               "options__23": {
-                "label": "Kamyon"
+                "label": "Harita pini"
               },
               "options__24": {
+                "label": "Kabuklu yemişsiz"
+              },
+              "options__25": {
+                "label": "Pantolon"
+              },
+              "options__26": {
+                "label": "Pati izi"
+              },
+              "options__27": {
+                "label": "Biber"
+              },
+              "options__28": {
+                "label": "Parfüm"
+              },
+              "options__29": {
+                "label": "Uçak"
+              },
+              "options__30": {
+                "label": "Bitki"
+              },
+              "options__31": {
+                "label": "Fiyat etiketi"
+              },
+              "options__32": {
+                "label": "Soru işareti"
+              },
+              "options__33": {
+                "label": "Geri dönüşüm"
+              },
+              "options__34": {
+                "label": "İade"
+              },
+              "options__35": {
+                "label": "Cetvel"
+              },
+              "options__36": {
+                "label": "Servis tabağı"
+              },
+              "options__37": {
+                "label": "Gömlek"
+              },
+              "options__38": {
+                "label": "Ayakkabı"
+              },
+              "options__39": {
+                "label": "Silüet"
+              },
+              "options__40": {
+                "label": "Kar tanesi"
+              },
+              "options__41": {
+                "label": "Yıldız"
+              },
+              "options__42": {
+                "label": "Kronometre"
+              },
+              "options__43": {
+                "label": "Kamyon"
+              },
+              "options__44": {
                 "label": "Yıkama"
               }
             }

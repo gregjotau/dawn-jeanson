@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
     {%- if settings.favicon != blank -%}
-      <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: '32x32' }}">
+      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
 
     {%- unless settings.type_header_font.system? -%}
@@ -108,7 +108,7 @@
           {% endif %}
         </p>
         {%- if gift_card.enabled == false or gift_card.expired -%}
-          <p class="gift-card__label badge badge--{{ settings.badge_sold_out_color_scheme }}">{{ 'gift_cards.issued.expired' | t }}</p>
+          <p class="gift-card__label badge badge--{{ settings.sold_out_badge_color_scheme }}">{{ 'gift_cards.issued.expired' | t }}</p>
         {%- endif -%}
       </div>
 
@@ -149,7 +149,7 @@
         {%- endif -%}
         <div class="gift-card__buttons no-print">
           <a
-            href="{{ shop.url }}"
+            href="{{ request.origin }}"
             class="button"
             target="_blank"
             rel="noopener"
